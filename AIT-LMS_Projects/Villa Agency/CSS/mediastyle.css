@@ -1,0 +1,110 @@
+@media (max-width: 768px){
+    .ms-5, .mt-5, .mb-5, .me-5{
+        margin: 15px !important;
+    }
+    .ps-5, .pt-5, .pe-5, .pb-5{
+        padding: 15px !important;
+    }
+    .ms-4, .mt-4, .mb-4, .me-4{
+        margin: 12px !important;
+    }
+    .ps-4, .pt-4, .pe-4, .pb-4{
+        padding: 12px !important;
+    }
+    .ms-3, .mt-3, .mb-3, .me-3{
+        margin: 9px !important;
+    }
+    .ps-3, .pt-3, .pe-3, .pb-3{
+        padding: 9px !important;
+    }
+    .ms-2, .mt-2, .mb-2, .me-2{
+        margin: 6px !important;
+    }
+    .ps-2, .pt-2, .pe-2, .pb-2{
+        padding: 6px !important;
+    }
+    .ms-1, .mt-1, .mb-1, .me-1{
+        margin: 3px !important;
+    }
+    .ps-1, .pt-1, .pe-1, .pb-1{
+        padding: 3px !important;
+    }
+    /* Nav up side */
+    .media-container{
+        justify-content: center !important;
+    }
+    /* Nav bar */
+    .navbar-nav {
+        display: flex !important;
+        flex-direction: column; /* important for mobile menu */
+        gap: 0 !important;
+    }
+    /* hero section */
+    .hero-slide h1 {
+        font-size: 20px !important;
+        top: 60%;
+        left: 50%;                 /* center it */
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .hero-slide button {
+        font-size: small;
+        left: 50%;
+        top: 25%;
+        transform: translateX(-50%);
+    }
+    /* featured */
+    .featured{
+        margin: 2px !important;
+        margin-bottom: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .featured-img{
+        height: 300px;
+        width: 300px;
+    }
+    .featured-icone{
+        width: 70px;
+        height: 70px;
+    }
+    .featured-icone img{
+        width: 50px;
+        height: 50px;
+        padding-left: 3%;
+    }
+    .featured-content{
+        margin-left: 2px !important;
+        padding-left: 2px !important;
+    }
+    .featured-container{
+        height: 350px !important;
+    }
+    /* Video view section */
+    .video-bg-img img{
+        height: 230px !important;
+    }
+    .video-bg-img-content{
+        top: 30px;
+        left: 0%;
+        margin: 30px;
+    }
+    .video-bg-img-content h5{
+        font-size: small;
+        margin-bottom: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .video-bg-img-content h1{
+        font-size: medium;
+    }
+    /* Experience-section */
+    .Experience-section{
+        position: absolute;
+        top: 2100px;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .experience-section-head{
+        margin: 0px !important;
+        gap: 15px !important;
+    }
+}
