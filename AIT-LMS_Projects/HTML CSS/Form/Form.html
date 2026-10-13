@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form change</title>
+    <style>
+        body{
+            display: flex;
+            background-color: black;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        form{
+            margin: 0 auto;
+            width: 500px;
+            background-color: wheat;
+            padding: 30px;
+            border-radius: 5%;
+            box-shadow: 2px 2px 2px red;
+        }
+
+        label, input, button{
+            display: block;
+            height: fit-content;
+            margin: 5px 20px;
+            font-size: x-large;
+        }
+
+        input:hover{
+            box-shadow:5px 5px 5px 5px rgb(232, 62, 62);
+            margin: 10px;
+        }
+
+        .output{
+            color: blue;
+            display: block;
+            position: absolute;
+            top: 60%;
+            left: 55%;
+            transform: translate(-50%, -50%);
+
+        }
+    </style>
+
+</head>
+<body>
+    <form action="">
+        <label for="">
+            Enter Your name
+        </label>
+        <input type="text" id="name">
+        <button type="button" onclick="makechange()">Submit</button>
+        <div class="output">
+            <p>Welcome <span id="outputname">User</span></p>
+        </div>
+    </form>
+    
+    <script>
+        function makechange(){
+            let name = document.getElementById("name").value;
+            document.getElementById("outputname").innerText = name;
+        }
+    </script>
+</body>
+</html>
